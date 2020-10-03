@@ -1,0 +1,33 @@
+:host {
+  width: 100%;
+  height: 100%;
+}
+
+.full-height {height: 95%;}
+.full-width {width: 100%;}
+.overflow-hidden {overflow: hidden;}
+.overflow-auto {overflow: auto;}
+
+.a {background-color: #ffffcc; /*overflow: hidden;*/}
+.b {background-color: #ffcccc;}
+.c {background-color: #d7ccff;}
+.d {background-color: #ccffdd;}
+.e {background-color: #cccccc;}
+.f {background-color: #fac0fc;}
+
+.flex-title {
+  background-color: rgba(128, 128, 128, .5);
+  text-align: center;
+}
+
+.flex-child {
+}
+
+.flex-section {
+  overflow: hidden;
+}
+
+.flex-content {
+  background-color: rgba(128, 128, 128, .2);
+  overflow: auto;
+}
